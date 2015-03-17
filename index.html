@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JavaScript Exercises</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>;
+  <![endif]-->
+</head>
+<body>
+	<div class="well col-sm-6 col-sm-offset-3">
+		<p id="story"></p>
+<!--
+		<ul>
+			<li>towel</li>
+			<li>bag of holding</li>
+		</ul>
+-->
+		<form role="form">
+			<div class="form-group">
+				<label for="name">What is your name?</label><br>
+				<input class="form-control" name="name" type="text">
+			</div>
+
+			<div class="form-group">
+				<label for="secret_agent_name">What is your secret agent name?</label><br>
+				<input class="form-control" name="secret_agent_name" type="text">
+			</div>
+
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" name="use_secret">
+					Call me by my secret agent name.
+				</label>
+			</div>
+
+			<div class="radio">
+				<label>
+					<input name="quest" type="radio" value="Figure out radio buttons">
+					Figure out these darned radio buttons
+				</label>
+			</div>
+
+			<div class="radio">
+				<label>
+					<input name="quest" type="radio" value="Stay awake">
+					Stay awake, darn it!
+				</label>
+			</div>
+
+			<div class="radio">
+				<label>
+					<input name="quest" type="radio" value="Eat healthier">
+					Eat healthier
+				</label>
+			</div>
+			
+			<div class="radio">
+				<label>
+					<input name="quest" type="radio" value="Make the big bucks">
+					Make the big bucks
+				</label>
+			</div>
+			
+			<div class="form-group">
+				<label for="color">What is your favorite color?</label><br>
+				<select class="form-control" name="color">
+					<option value="black">Black</option>
+					<option value="red">Red</option>
+					<option value="yellow">Yella</option>
+					<option value="purple">Plurple</option>
+				</select>
+			</div>
+			
+			<input name="submit" class="btn btn-default" type="submit" value="Tell a story">
+		</form>
+	</div>
+
+	<script src="js/questly.js"></script>
+</body>
+</html>
